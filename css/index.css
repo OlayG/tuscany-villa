@@ -1,0 +1,301 @@
+body {
+	background-color: lightgrey;
+}
+i{
+	padding: 10px 5px;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar-brand {
+	padding: 13px 15px;
+}
+.navbar-fixed-top{
+	background-color: #FFFFFF;
+}
+span{
+	background-color: black;
+	margin-top: 8px;
+}
+#brandImage{
+	background: url("file:///C:/Users/WeCanCodeIT/Documents/PracticeBoot/Brand.png");
+	width: 199px;
+	height: 62px;
+	display: block;
+}
+#villas{
+background: url("file:///C:/Users/WeCanCodeIT/Documents/PracticeBoot/Villas.png");
+	width: 145px;
+	height: 62px;
+	display: block;
+}
+#navList{
+	padding: 21px;
+	color: black;
+}
+#firstNav{
+	padding-left: 230px;
+}
+
+/* --------------------------------------
+   Jumbotron
+   -------------------------------------- */
+.jumbotron{
+	height: 150px;
+	text-align: left;
+	margin-bottom: 0;
+}
+.jumbotron p{
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+	color: #878a8b;
+}
+/* .jumbotron h5{
+	font-size: 12px;
+	color: #878a8b;
+} */
+.jumbotron img{
+	padding-top: 6px;
+}
+.jumbotron i{
+	padding-right: 0;
+	padding-top: 20px;
+	float: right;
+}
+#footerP{
+	padding-top: 20px;
+}
+#footerP1{
+	padding-top: 10px;
+}
+/* --------------------------------------
+   Thumbnail
+   -------------------------------------- */
+.thumbnail{
+	padding: 0;
+	margin-bottom: 0;
+}
+.thumbnail.row{
+	margin: 0px;
+}
+
+/* --------------------------------------
+   Row
+   -------------------------------------- */
+#col-mine{
+	padding: 0;
+	height: 250px;
+}
+#r1p2{
+	height: 584px;
+}
+#row2spot1{
+	background-color: white; 
+	height: 250px;
+}
+#row2spot1 h3{
+	color: #4fb1a2;
+	letter-spacing: 2px;
+	font-size: 21px;
+	text-transform: uppercase;
+	margin: 10px 15px 0 10px;
+	line-height: 30px;
+	text-align: left;
+}
+#row2spot1 p{
+	font-size: 13px;
+	color: black;
+	line-height: 18px;
+	margin: 5px 15px 0 10px;
+	text-align: left;
+}
+#row2spot1 span{
+	margin: 5px 0 0 10px;
+}
+#r3b2{
+	height: 250px;
+}
+#r3b2 h3{
+	font-size: 21px;
+	text-align: center;
+	font-weight: 400;
+	color: #434647;
+	text-transform: uppercase;
+}
+#r3b2 p{
+	text-align: center;
+	margin: 0 10px;
+}
+#r3b2 a{
+	text-transform: uppercase;
+	text-align: center;
+	border: 1px solid #82bfd8;
+	padding: 5px 15px;
+	letter-spacing: 1.5px;
+	font-size: 14px;
+	display: inline-block;
+	margin-left: 75px;
+	color: #82bfd8;
+	text-decoration: none;
+}
+#r3b2 a:hover{
+	background-color: #82bfd8;
+	color: #fff;
+}
+#lastbutton{
+	margin-top: 50px;
+}
+#lastbutton1{
+	margin-top: 40px;
+
+}
+#lastbutton2{
+	margin-top: 20px;
+}
+/* --------------------------------------
+   Social Media Icons
+   -------------------------------------- */
+h1 {
+    font-size: 25px;
+}
+
+h1 .icon:first-child {
+    margin-right: 0.5em;
+}
+
+h1 .icon:last-child {
+    margin-left: 0.5em;
+}
+
+/* Create square icons, white logo on colored background */
+
+#social-bar .icon {
+    color: white;
+    border-radius: 4px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    min-width: 27px;
+    line-height: 27px;
+    text-align: center;
+}
+
+#social-bar a {
+    margin-right: 5px;
+    padding: 5px; /* Increase hit rectangle for touch devices */
+}
+
+#social-bar a:first-child {
+    padding-left: 0;
+}
+
+/* Set icon color related to the service */
+
+#social-bar a span {
+    margin-left: 5px;
+}
+
+#social-bar .icon-rss {
+    background: #e5842f;
+}
+
+#social-bar .icon-facebook {
+    background: #3B5998;
+}
+
+#social-bar .icon-twitter {
+    background: #00ACED;
+}
+
+#social-bar .icon-google-plus {
+    background: #E14107;
+}
+
+/* Don't underline icon etc. */
+#social-bar a:hover {
+    text-decoration: none;
+}
+
+#social-bar a:hover span {
+    text-decoration: underline;
+    color: #333333; /* Match icon highlight color */
+}
+
+/* Animate mouse hover */
+#social-bar a .icon {
+   transition: background 0.5s;
+}
+
+#social-bar a:hover .icon {
+    background: #333333;
+    transition: background 0.5s;
+}
+
+/* --------------------------------------
+   Sprite
+   -------------------------------------- */
+.sprite{background:url("http://www.windowsontuscany.com/wp-content/themes/tuscany/img/sprite.png");display:inline-block}.sprite.arrow_right_white{background-position:-32px -37px;width:51px;height:9px}.sprite.arrow_down_white{background-position:-286px -34px;width:9px;height:51px}.sprite.arrow_right_dark{background-position:-32px -347px;width:51px;height:9px}.sprite.ico_search_white{background-position:-107px -34px;width:16px;height:16px}.sprite.ico_people_white{background-position:-137px -35px;width:16px;height:15px}.sprite.ico_people_gray{background-position:-321px -343px;width:16px;height:15px}.sprite.ico_people_dark{background-position:-453px -342px;width:16px;height:15px}.sprite.ico_bed_white{background-position:-167px -38px;width:16px;height:12px}.sprite.ico_bed_gray{background-position:-269px -344px;width:16px;height:12px}.sprite.ico_bed_dark{background-position:-406px -344px;width:16px;height:12px}.sprite.ico_shower_white{background-position:-198px -35px;width:15px;height:15px}.sprite.ico_shower_dark{background-position:-430px -342px;width:15px;height:15px}.sprite.ico_star_white{background-position:-229px -38px;width:12px;height:12px}.sprite.ico_star_aqua{background-position:-229px -51px;width:12px;height:12px}.sprite.ico_clock_white{background-position:-321px -35px;width:15px;height:15px}.sprite.ico_pin_white{background-position:-352px -34px;width:12px;height:16px}.sprite.ico_pin_gray{background-position:-245px -342px;width:12px;height:16px}.sprite.ico_pin_dark{background-position:-361px -342px;width:12px;height:16px}.sprite.ico_cartello_white{background-position:-381px -34px;width:14px;height:16px}.sprite.ico_cartello_dark{background-position:-384px -342px;width:14px;height:16px}.sprite.ico_plus_white{background-position:-410px -34px;width:16px;height:16px}.sprite.ico_close_white{background-position:-440px -34px;width:16px;height:16px}.sprite.arrows_mini_aqua{background-position:-34px -119px;width:8px;height:8px}.sprite.arrows_mini_white{background-position:-34px -134px;width:8px;height:8px}.sprite.ico_calendar_mini_aqua{background-position:-56px -115px;width:16px;height:16px}.sprite.ico_calendar_mini_white{background-position:-56px -138px;width:16px;height:16px}.sprite.ico_calendar_mini_gray{background-position:-295px -342px;width:16px;height:16px}.sprite.ico_list_gray{background-position:-122px -119px;width:16px;height:12px}.sprite.ico_list_aqua{background-position:-122px -141px;width:16px;height:12px}.sprite.ico_world_gray{background-position:-147px -118px;width:15px;height:15px}.sprite.ico_world_aqua{background-position:-147px -140px;width:15px;height:15px}.sprite.list_squared{background-position:-187px -107px;width:36px;height:36px}.sprite.list_squared.on,.sprite.list_squared:hover{background-position:-187px -147px;width:36px;height:36px}.sprite.world_squared{background-position:-231px -107px;width:36px;height:36px}.sprite.world_squared.on,.sprite.world_squared:hover{background-position:-231px -147px;width:36px;height:36px}.sprite.ico_pin_big_aqua{background-position:-32px -227px;width:23px;height:30px}.sprite.ico_bus_big_aqua{background-position:-78px -227px;width:30px;height:29px}.sprite.ico_train_big_aqua{background-position:-132px -226px;width:20px;height:30px}.sprite.ico_sea_big_aqua{background-position:-177px -226px;width:30px;height:28px}.sprite.ico_plane_big_aqua{background-position:-226px -225px;width:30px;height:30px}.sprite.ico_phone_big_white{background-position:-287px -228px;width:30px;height:26px}.sprite.ico_mail_big_white{background-position:-335px -225px;width:30px;height:26px}.sprite.marker_mini{background-position:-113px -340px;width:39px;height:69px}.sprite.marker_big{background-position:-168px -332px;width:49px;height:84px}.sprite.ico_twitter{background-position:-26px -457px;width:23px;height:20px}.sprite.ico_twitter:hover,.sprite.ico_twitter_aqua{background-position:-26px -489px;width:23px;height:20px}.sprite.ico_twitter_white{background-position:-26px -522px;width:23px;height:20px}.sprite.ico_facebook{background-position:-64px -456px;width:11px;height:23px}.sprite.ico_facebook:hover,.sprite.ico_facebook_aqua{background-position:-64px -488px;width:11px;height:23px}.sprite.ico_facebook_white{background-position:-64px -520px;width:11px;height:23px}.sprite.ico_google{background-position:-89px -457px;width:23px;height:20px}.sprite.ico_google:hover,.sprite.ico_google_aqua{background-position:-89px -489px;width:23px;height:20px}.sprite.ico_radio.on{background-position:-132px -457px;width:13px;height:13px}.sprite.ico_radio{background-position:-132px -474px;width:13px;height:13px}.sprite.ico_checkbox.on{background-position:-165px -456px;width:19px;height:16px}.sprite.ico_checkbox{background-position:-165px -476px;width:19px;height:16px}.sprite.ico_calendar_gray_down{background-position:-202px -456px;width:36px;height:36px}.sprite.ico_calendar_gray_up{background-position:-247px -456px;width:36px;height:36px}.sprite.ico_calendar_aqua_down{background-position:-202px -498px;width:36px;height:36px}.sprite.ico_calendar_aqua_up{background-position:-247px -498px;width:36px;height:36px}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+.jumbotron{
+	height: 200px;
+	text-align: left;
+	margin-bottom: 0;
+}
+.jumbotron p{
+	font-size: 8px;
+	padding-bottom: 5px;
+	color: #878a8b;
+	float: right;
+}
+.jumbotron h5{
+	font-size: 12px;
+	color: #878a8b;
+	padding-bottom: 10px;
+
+}
+#footerP{
+	float: right;
+	padding-right: 140px;
+	padding-bottom: 5px;
+}
+.jumbotron i{
+	padding-top: 0px;
+/* 	margin-top: 20px; */
+}	
+.jumbotron img{
+	margin-left: 165px;
+	padding-bottom: 10px;
+}
+
+li#firstNav{
+	padding-left: 0px;
+}
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+#firstNav{
+	padding-left: 50px;
+}
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+
+}
+
+
